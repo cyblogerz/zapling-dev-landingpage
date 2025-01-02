@@ -1,0 +1,15 @@
+# dependencies
+node_modules
+
+# production
+/out
+
+.next
+tsconfig.tsbuildinfo
+.eslintcache
+
+.next
+tsconfig.tsbuildinfo
+
+.firebase
+*.log
