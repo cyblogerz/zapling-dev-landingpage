@@ -63,7 +63,8 @@ const Projects = () => {
           </SummarySection>
 
           <ProjectLinks id={`projectLinks${index}`}>
-            {project.appleLink ? (
+            {/* {
+            project.link ? (
               <DownloadButton
                 icon={<Apple />}
                 text="Download on the"
@@ -71,7 +72,7 @@ const Projects = () => {
                 href={project.appleLink}
                 isVisible={visibleSections[`projectLinks${index}`]}
               />
-            ) : (
+            ) : ( */}
               <>
                 <Link
                   href={project.live}
@@ -91,7 +92,8 @@ const Projects = () => {
                   </Link>
                 )}
               </>
-            )}
+            
+            {/* } */}
           </ProjectLinks>
           {projects.length !== index + 1 && (
             <Dots isVisible={visibleSections[`projectLinks${index}`]} />
