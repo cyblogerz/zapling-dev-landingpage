@@ -73,26 +73,26 @@ const Projects = () => {
                 isVisible={visibleSections[`projectLinks${index}`]}
               />
             ) : ( */}
-              <>
+            <>
+              <Link
+                href={project.live}
+                target="_blank"
+                isVisible={visibleSections[`projectLinks${index}`]}
+              >
+                🚀 Live Preview
+              </Link>
+
+              {project.code && (
                 <Link
-                  href={project.live}
+                  href={project.code}
                   target="_blank"
                   isVisible={visibleSections[`projectLinks${index}`]}
                 >
-                  🚀 Live Preview
+                  ⚗️ View Code
                 </Link>
+              )}
+            </>
 
-                {project.code && (
-                  <Link
-                    href={project.code}
-                    target="_blank"
-                    isVisible={visibleSections[`projectLinks${index}`]}
-                  >
-                    ⚗️ View Code
-                  </Link>
-                )}
-              </>
-            
             {/* } */}
           </ProjectLinks>
           {projects.length !== index + 1 && (

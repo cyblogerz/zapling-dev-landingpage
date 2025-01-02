@@ -10,7 +10,7 @@ const manrope = Manrope({ subsets: ['latin'], display: 'swap' })
 export const metadata: Metadata = {
   title: 'Zapling - Minimalist & Efficient Apps',
   description:
-    "Zapling creates innovative, user-friendly, and efficient mobile apps designed to simplify your life. Discover our minimalist approach to powerful functionality.",
+    'Zapling creates innovative, user-friendly, and efficient mobile apps designed to simplify your life. Discover our minimalist approach to powerful functionality.',
   keywords:
     'Zapling, Mobile Apps, Minimalist Design, User-Friendly Apps, Efficient Apps, App Development, Productivity Apps, Innovative Solutions',
 }

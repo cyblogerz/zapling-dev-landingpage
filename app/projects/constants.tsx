@@ -1,4 +1,4 @@
-import { nanoid } from 'nanoid';
+import { nanoid } from 'nanoid'
 
 export const projects = [
   {
@@ -54,8 +54,7 @@ export const projects = [
         src: 'https://github.com/cyblogerz/hacktoberHub/raw/main/image.png',
         alt: 'HacktoberHub Home Screen',
       },
-      
-    
+
       // Add more images as needed
     ],
     summary: `HacktoberHub is a website that lets users explore a vast collection of open-source projects participating in Hacktoberfest. With a minimalistic and user-friendly interface, finding the perfect project to contribute to has never been easier.`,
@@ -85,4 +84,4 @@ export const projects = [
     code: 'https://github.com/skai-org/skyOS',
   },
   // Add more projects as they become available
-];
+]
