@@ -38,7 +38,7 @@
       "error",
       {
         "groups": [
-          "builtin",
+          "builtin", 
           "external",
           "internal",
           "parent",

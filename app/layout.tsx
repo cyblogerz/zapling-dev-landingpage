@@ -14,6 +14,7 @@ export const metadata: Metadata = {
   keywords:
     'Zapling, Mobile Apps, Minimalist Design, User-Friendly Apps, Efficient Apps, App Development, Productivity Apps, Innovative Solutions',
 }
+
 const RootLayout = ({ children }: { children: ReactNode }) => {
   return (
     <html lang="en" className={manrope.className}>
