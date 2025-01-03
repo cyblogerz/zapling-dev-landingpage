@@ -23,7 +23,6 @@ const RootLayout = ({ children }: { children: ReactNode }) => {
           {children}
         </StyledComponentsRegistry>
       </body>
-      
     </html>
   )
 }
