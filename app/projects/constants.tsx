@@ -8,12 +8,12 @@ export const projects = [
     pictures: [
       {
         id: nanoid(),
-        src: 'https://user-images.githubusercontent.com/74711322/136813482-124a01ee-e0ee-4294-b28a-0e43d3f13d2c.jpg',
+        src: '/projects/nallagram/1.png',
         alt: 'Nallagram Home Screen',
       },
       {
         id: nanoid(),
-        src: 'https://user-images.githubusercontent.com/74711322/136813572-e3b76197-7368-4828-b9a2-9d69a1d6b430.jpg',
+        src: '/projects/nallagram/1.png',
         alt: 'Nallagram Profile Screen',
       },
       // Add more images as needed
