@@ -8,12 +8,12 @@ export const projects = [
     pictures: [
       {
         id: nanoid(),
-        src: '/projects/nallagram/1.png',
+        src: '/projects/nallagram/2.png',
         alt: 'Nallagram Home Screen',
       },
       {
         id: nanoid(),
-        src: '/projects/nallagram/1.png',
+        src: '/projects/nallagram/2.png',
         alt: 'Nallagram Profile Screen',
       },
       // Add more images as needed
@@ -30,12 +30,12 @@ export const projects = [
     pictures: [
       {
         id: nanoid(),
-        src: 'https://github.com/cyblogerz/Zippy-elibrary/raw/master/readme-assets/ss1.jpeg',
+        src: '/projects/nallagram/zipppy.png',
         alt: 'Zippy eLibrary Home Screen',
       },
       {
         id: nanoid(),
-        src: 'https://github.com/cyblogerz/Zippy-elibrary/raw/master/readme-assets/ss2.jpeg',
+        src: '/projects/nallagram/zipppy.png',
         alt: 'Zippy eLibrary Book Details',
       },
       // Add more images as needed
