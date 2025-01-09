@@ -22,7 +22,7 @@ const Home = () => (
   <StyledHome>
     <Welcome>
       <TopGreeting>
-       
+      <Greeting>Zapling</Greeting>
         <ImageHolder>
           <Image
             src="/logo.png" // Replace with your company logo
@@ -33,7 +33,7 @@ const Home = () => (
             unoptimized
           />
         </ImageHolder>
-        <Name>Zapling Tech Solutions</Name>
+        <Name>Labs</Name>
       </TopGreeting>
       <Position>Crafting smart and efficient software</Position>
     </Welcome>

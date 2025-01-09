@@ -8,8 +8,8 @@ export const linkOptions = [
   },
   {
     id: nanoid(),
-    link: 'https://github.com/cyblogerz',
-    text: 'See our GitHub',
+    link: 'https://www.fiverr.com/s/Q74WZLy',
+    text: 'Fiverr Gigs',
   },
   {
     id: nanoid(),

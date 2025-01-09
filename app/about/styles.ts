@@ -21,12 +21,13 @@ export const StyledAbout = styled.div`
   }
 
   img {
-    height: 350px;
-    width: 100%;
-    border-radius: 12px;
-    object-fit: cover;
-    filter: brightness(1.4);
-
+    /* height: 350px; */
+    /* width: 100%; */
+    /* border-radius: 12px; */
+    /* object-fit: cover; */
+    /* filter: brightness(1.4); */
+    margin: auto;
+    border-radius: 30px;
     opacity: 0;
     transform: translateY(90px) scale(0.7) skewY(8deg);
     animation: ${showElement} 0.7s ease-out forwards 0.3s;

@@ -23,13 +23,14 @@ const About = () => {
   return (
     <StyledAbout>
       <Header>About Zapling</Header>
-      <Image
-        unoptimized
-        src="https://play-lh.googleusercontent.com/ru9-EZfp-MQ8El3OAHPUM2JOKFTlLXN1wQB-pI05BouAshGrlPPVOKtixk8pc1DxesnS=w7680-h4320" // Replace with an image representing your company/team
-        alt="Zapling Team"
-        height={350}
-        width={600}
-      />
+     <Image
+                src="/logo.png" // Replace with your company logo
+                alt="Zapling Logo"
+                width={100}
+                height={100}
+                priority
+                unoptimized
+              />
       <Greeting>Welcome to Zapling!</Greeting>
       <AboutMe>
         <p>
